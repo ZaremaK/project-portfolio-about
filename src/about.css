@@ -1,0 +1,134 @@
+:root {
+    --main-color: #0A4845;
+    --border-radius: 4px;
+    --secondary-color: #F4FEFD;
+}
+
+html, body {
+
+    padding: 0 20px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+    text-align: left;
+    display: block;
+}
+
+
+.about{
+    padding: 30px;
+}
+
+.about__body {
+  
+    margin: 0px auto;
+}
+
+.about__header {}
+
+.about__link {
+    text-align: center;
+}
+
+.about__title {
+    margin: 200px 0px 95px 0px; }
+
+
+
+
+
+.about__subtitle {
+    margin: 0px 0px 30px 0px; }
+
+.about__row {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+margin: 0 auto;
+gap: 1rem;
+max-width: 1200px;
+}
+@media (min-width: 600px) {
+    .about__row { grid-template-columns: repeat(1, 1fr); }
+  }
+  @media (min-width: 900px) {
+    .about__row { grid-template-columns: repeat(2, 1fr); }
+  }
+  .about__columns{
+    max-width: 100%;
+  }
+
+.title {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 85px;
+    position: relative;
+    color: #000000;
+    
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);}
+
+.subtitle {font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    }
+
+.item-about {
+ 
+}
+.item-about__text {
+
+padding: 0px 0px 30px 0px; 
+}
+.text{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+color: var(--main-color);
+}
+
+
+.item-about__image {
+    
+width: 560px;
+height: 560px;
+margin: 50px 0px 30px 0px; 
+ }
+
+
+.image {
+   
+    border-radius: 4px;
+    max-width: 100%;
+    border: 1px solid #000000;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+
+}
+.item-about__button{
+
+    padding: 0px 0px 30px 0px; 
+
+}
+.button{
+margin: 20px;
+padding: 10px 20px;
+border: 3px solid var(--main-color);
+border-radius: var(--border-radius);
+text-decoration: none;
+color: white;
+background-color: var(--main-color);
+}
+a{
+    text-decoration: none;
+
+}
+a:hover {
+    cursor: pointer;
+
+  }
